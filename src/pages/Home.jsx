@@ -14,6 +14,7 @@ const App = () => {
 <header className="hero">
   <div className="hero-content">
     <h1>Welcome to the collaborators and visitors.</h1>
+    <p>Hello all</p>
     
     <div className="photo-container">
     <img src={profilePic} alt="My Profile" className="profile-pic" />
