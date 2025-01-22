@@ -1,9 +1,9 @@
-# Build and Deploy an Amazing 3D Developer Portfolio in React with Three.js
+Hello connections,
 
-![3D Website](https://i.ibb.co/ryytGVx/Screenshot-2023-11-25-at-11-28-11-AM.png)
+This is the source code for my portfolio. As I was exploring how to use react with angular project, I thought I can create a portfolio for myself which I have been thinking about.
 
-### [🌟 Become a top 1% Next.js 14 developer in only one course](https://jsmastery.pro/next14)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
-### [📙 Free Three.js Cheatsheet](https://resource.jsmastery.pro/threejs-cheatsheet)
-### [🌐 Best Hosting for Your Websites](https://hostinger.com/javascript10)
+About, Porjects, Contact pages are inspired from a youtube video. https://youtu.be/FkowOdMjvYo?si=Wjshj1cOXZ0yGvVM 
 
+Based on my learning I implemented the home page by my own. 
+
+Please feel free to use the skeleton of the UI/UX but let me tell you that the **current projects aren't open sourced yet**, which means **the ideas are intellectually personal.** 
