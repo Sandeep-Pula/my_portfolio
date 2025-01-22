@@ -1,0 +1,273 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Homepage Styles */
+.homepage {
+  text-align: center;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #d35400, #8e44ad); /* Adjusted to complement photo colors */
+  color: white;
+  padding: 80px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  animation: bounce 3s infinite;
+}
+
+.btn-primary:hover {
+  background-color: #e14e25;
+}
+
+/* Photo Section */
+.photo-container {
+  margin-top: 20px;
+  animation: zoomIn 2s ease-in-out;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 4px solid white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  animation: pulseZoom 4s infinite ease-in-out; /* Applied new animation */
+}
+
+/* Features Section */
+.features {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.features h2 {
+  margin-bottom: 20px;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: left;
+  animation: slideUp 2s ease-in-out;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #2575fc;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 10px;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+/* Apply Animation to H1 */
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  animation: fadeInUp 2s ease-in-out; /* 2 seconds duration */
+}
+
+.blog-section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.blog-section h3 {
+  font-size: 1.5em;
+  color: #ffffff; /* White color for better contrast */
+}
+
+.blog-section p {
+  font-size: 1.2em;
+  color: #f0f0f0; /* Light gray for better readability */
+}
+
+.button-look {
+  display: inline-block; /* Make it behave like a button */
+  padding: 10px 20px; /* Add padding for a button-like appearance */
+  background-color: #1e90ff; /* DodgerBlue background */
+  color: white; /* White text for contrast */
+  font-size: 16px; /* Adjust font size */
+  font-weight: bold; /* Keep bold text */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline (if any) */
+  transition: all 0.3s ease; /* Smooth hover and click effects */
+}
+
+.button-look:hover {
+  background-color: #4169e1; /* Slightly darker blue on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.button-look:active {
+  transform: scale(0.95); /* Slight shrink effect on click */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Reduce shadow on click */
+}
+
+
+.swipe-container {
+  position: fixed;
+  bottom: 20px; /* Distance from the bottom of the screen */
+  right: 20px; /* Distance from the right of the screen */
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Add some padding inside the div */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
+  font-size: 16px; /* Adjust font size */
+  font-weight: bold; /* Make the text bold */
+  animation: slideInUp 1.5s ease-in-out infinite; /* Optional animation */
+}
+
+@keyframes slideInUp {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulseZoom {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); /* Slight zoom-in effect */
+  }
+}
+/* H1 Animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Starts slightly below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Ends in the original position */
+  }
+}
+
+
+
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotatePhoto {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
