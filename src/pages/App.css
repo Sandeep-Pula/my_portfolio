@@ -177,6 +177,65 @@ body {
   animation: slideInUp 1.5s ease-in-out infinite; /* Optional animation */
 }
 
+/* Styles for tablets (max-width 768px) */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 15px;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem; /* Reduce font size */
+  }
+
+  .hero-content p {
+    font-size: 1rem; /* Adjust text size for readability */
+  }
+
+  .feature-cards {
+    flex-direction: column; /* Stack cards vertically */
+    gap: 10px; /* Reduce gap */
+  }
+
+  .card {
+    max-width: 100%; /* Full width for cards */
+  }
+}
+
+/* Styles for mobile phones (max-width 480px) */
+@media (max-width: 480px) {
+  .hero {
+    padding: 40px 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem; /* Further reduce size */
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  .photo-container {
+    margin-top: 10px; /* Reduce spacing */
+  }
+
+  .profile-pic {
+    width: 100px; /* Smaller size */
+    height: 100px;
+  }
+
+  .feature-cards {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .footer .social-icons {
+    flex-direction: column; /* Stack icons */
+    font-size: 1.2rem; /* Adjust size */
+  }
+}
+
+
 @keyframes slideInUp {
   0% {
     transform: translateY(10px);
