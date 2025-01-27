@@ -13,6 +13,8 @@ const App = () => {
 {/* Hero Section */}
 <header className="hero">
   <div className="hero-content">
+  <br/>
+  <br/>
     <h1>Welcome to the collaborators and visitors.</h1>
     
     <div className="photo-container">
@@ -26,11 +28,7 @@ const App = () => {
     </div>
     
     <p>Introducing my creative den.</p>
-    <button className="btn-primary">
-      <NavLink to='/about' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
-        Visit Profile
-      </NavLink>
-    </button>
+
   </div>
 
   <div className="swipe-container">
@@ -45,7 +43,13 @@ const App = () => {
 
       {/* Features Section */}
       <section className="features">
-        <h2><b>Current Projects</b></h2>
+        <h2><b>Current Projects</b></h2> 
+        <button className="btn-primary">
+
+<NavLink to='/about' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
+  Visit Profile
+</NavLink>
+</button>
         <div className="feature-cards">
           <div className="card">
             <h3><b>rethink robotics -Baxter</b></h3>
@@ -62,7 +66,6 @@ const App = () => {
         </div>
       </section>
 
-      
 
 
     </div>
