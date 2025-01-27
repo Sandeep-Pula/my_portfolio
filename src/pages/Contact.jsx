@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useRef, useState } from "react";
@@ -10,6 +11,10 @@ import React from "react";
 
 
 const Contact = () => {
+  // Scroll to the top on component load
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  }, []);
   const formRef = useRef();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const { alert, showAlert, hideAlert } = useAlert();

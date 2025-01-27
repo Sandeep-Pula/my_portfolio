@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import './App.css';
 
@@ -7,6 +8,10 @@ import { projects } from "../constants";
 import { arrow } from "../assets/icons";
 
 const Projects = () => {
+  // Scroll to the top on component load
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page
+  }, []);
   return (
     <section className='max-container'>
       <h1 className='head-text'>
