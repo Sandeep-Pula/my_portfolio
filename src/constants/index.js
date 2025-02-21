@@ -180,7 +180,7 @@ export const experiences = [
         company_name: "Cleveland State University",
         icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGOGFbVZklEm0TLNfOYBbA_rgz849o2mHvJkY31Vmmb62AZNgNNOB6e_c29YP-HZAL9g&usqp=CAU",
         iconBg: "#000000",
-        date: "Oct 2024 - dec 2024",
+        date: "Oct 2024 - Dec 2024",
         points: [
             "Volunteered as a Full Stack Web Developer to assist professors at Cleveland State University (CSU) in building their official portfolio webpages.",
             "Leveraged Angular and JavaScript to design dynamic, user-friendly interfaces and interactive features.",
