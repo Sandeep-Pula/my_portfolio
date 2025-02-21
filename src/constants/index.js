@@ -180,7 +180,7 @@ export const experiences = [
         company_name: "Cleveland State University",
         icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGOGFbVZklEm0TLNfOYBbA_rgz849o2mHvJkY31Vmmb62AZNgNNOB6e_c29YP-HZAL9g&usqp=CAU",
         iconBg: "#000000",
-        date: "Oct 2024 - Till Date",
+        date: "Oct 2024 - dec 2024",
         points: [
             "Volunteered as a Full Stack Web Developer to assist professors at Cleveland State University (CSU) in building their official portfolio webpages.",
             "Leveraged Angular and JavaScript to design dynamic, user-friendly interfaces and interactive features.",
@@ -193,7 +193,7 @@ export const experiences = [
         company_name: "Cleveland State University",
         icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGOGFbVZklEm0TLNfOYBbA_rgz849o2mHvJkY31Vmmb62AZNgNNOB6e_c29YP-HZAL9g&usqp=CAU",
         iconBg: "#000000",
-        date: "Sept 2023 - Till Date",
+        date: "Sept 2023 - Dec 2024",
         points: [
             "Project A: The research explores a new approach called “Bidirectional Penalty-based Approach for Reinforcement Learning Algorithms.” It aims to develop new derived algorithms to improve autonomous scientific labs in the Department of Energy, USA. The focus is on a penalty-based reward function that can enhance any existing algorithm, improving performance and success rates.",
             "Project B: The research involves the implementation of a Bidirectional Penalty-Based Reinforcement Learning (RL) algorithm utilizing the Opentrons dataset, alongside the practical application of this algorithm in training a physical robotic system to perform industrial tasks. The primary objective of this study is to investigate and analyze the behavioral responses of the physical robot in relation to the proposed approach, with a focus on evaluating its efficacy in real-world scenarios. Using Baxter robot, implementing bi-directional penalty based RL algorithm and generating a benchmark dataset which can be used for industrial purpose",
