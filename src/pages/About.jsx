@@ -15,6 +15,7 @@ const Maintenance = () => {
   const randomMessage = messages[Math.floor(Math.random() * messages.length)];
 
   return (
+    // just maintenance page...
     <div className="maintenance-container">
       <h1>🚧 Site Under Maintenance</h1>
       <p>I'm working behind the scenes to bring you something better.</p>
